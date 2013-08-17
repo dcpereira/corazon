@@ -1,53 +1,81 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Under Construction</title>
-<link href="css/style.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="js/jquery-1.6.1.js" ></script>
-<script type="text/javascript" src="js/jquery.countdown.js" ></script>
-<script type="text/javascript" src="js/cufon-yui.js"></script>  
-<script type="text/javascript" src="js/Bebas_400.font.js"></script>
-
-<script type="text/javascript">
-		$(function () {
-$('.counter').countdown({until: new Date(2012, 12 - 1, 11)}); 
-});
-		</script> 
-        
-<script type="text/javascript">  
-    Cufon.replace('.info p', { textShadow: '1px 1px 1px #000'});  
-
-</script>        
-
+	<meta charset="UTF-8">
+	<title>Corazon De Dios</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!-- include jQuery library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<!-- include Cycle plugin -->
+	<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $('.slideshow').cycle({
+			fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		});
+	});
+	</script>
 </head>
-
 <body>
-<div id="main">
-       <div id="header">
-              <img src="images/logo.png" class="logo" alt="Logo" />
-       </div><!-- End Header -->
-       <div id="container">
-              <div class="info">
-                        <p>Our site is currently under construction.</p>
-                        <p>We are done with most of the work and will be back soon!</p>              
-              </div><!-- End Info -->
-              <div id="countdown">
-                         <div class="counter"></div>
-              </div><!-- End Countdown -->
-              <div class="line"></div>
-              <div class="subscribe">
-                        <div class="social">
-                             <a href="#"><img src="images/fb.png" alt="" /></a>
-                             <a href="#"><img src="images/twit.png" alt="" /></a>
-                             <a href="#"><img src="images/dribble.png" alt="" /></a>
-                             <a href="#"><img src="images/frost.png" alt="" /></a>
-                        </div><!--- End Social -->                       
-                        <div class="clear"></div>
-              </div><!-- End Subscribe -->                          
-       </div><!-- End Container -->
-             
-</div><!-- End Main -->
+	<div class="background">
+		<div class="page">
+			<div class="logo">
+				<span> <a href="index.html"><img src="images/logo.png" alt=""></a> </span>
+			</div>
+			<div class="sidebar">
+				<ul>
+					<li class="selected">
+						<a href="index.html">home</a>
+					</li>
+					<li>
+						<a href="about.html">about</a>
+					</li>
+					<li>
+						<a href="donate.html">donate</a>
+					</li>
+				</ul>
+				<div class="connect">
+					<a href="http://www.facebook.com" id="facebook">facebook</a> <a href="http://www.twitter.com/" id="twitter">twitter</a> <a href="https://plus.google.com/" id="googleplus">googleplus</a>
+				</div>
+				<p class="footnote">
+					&#169; Copyright 2012. <br> All rights reserved.
+				</p>
+			</div>
+			<div class="body">
+				<ul>
+					<li class="first">
+						<h3><a href="" style="padding-left:190px; padding-bottom:20px;">Welcome to Corazon De Dios</a></h3>
+							<span class="slideshow">
+								<img src="images/girl_brochure.jpg" alt="" width="750" height="450">
+								<img src="images/kids.jpg" alt="" width="750" height="450">
+								<img src="images/girl.jpg" alt="" width="750" height="450">
+							</span>
+						<!-- <h3><a href="#">Welcome to our website!</a></h3> -->
+							<p>The Corazon de Dios ministry  seeks  to help the Honduran people find joy in loving God, their families
+								and fellow man and to improve their basic quality of life.  
+								We seek to  accomplish this by:<br/><br/>
+							
+									&nbsp;&nbsp;&nbsp; 1. Implementing an   educational program that enhances the quality of life.<br/>
+									&nbsp;&nbsp;&nbsp; 2. Focusing on the spiritual, practical and medical needs.<br/>
+									&nbsp;&nbsp;&nbsp; 3. Hosting, developing and equiping teams that help and support individual needs.<br/>
+						</p>
+					</li>
+					<li class="second">
+						<a href="#"><img src="images/cute.jpg" alt=""><br/><br/></a>
+						<h3><a href="#">How you can help us!</a></h3>
+						<span>&nbsp;</span>
 
+						<p>		
+						- Pray<br/> - Give<br/> - Tell others<br/> - Invite your church, Sunday school, choir, youth ministries, &nbsp; &nbsp; civic club, garden club, etc, to participate<br/> - Help with travel for others<br/> - Plan fund raisers! <br/> - Choose a child or 
+						children to support!<br/><br/>
+
+						'Matthew 25:35'	:	for I was hungry and you gave me food; I was thirsty and you 	gave me drink; i was a stranger and you took me in” <br/>
+						</p>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
